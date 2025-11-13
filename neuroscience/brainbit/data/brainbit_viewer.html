@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainBit Lite Visualizer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            padding: 15px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        .chart-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            padding: 15px;
+            height: 250px;
+        }
+        h1, h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        h1 {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            margin: 0;
+            margin-bottom: 15px;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .stat-box {
+            background-color: #f8f9fa;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .dominant {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin: 15px 0;
+            gap: 10px;
+        }
+        button {
+            padding: 8px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .status {
+            text-align: center;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        #status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #e74c3c;
+            margin-right: 5px;
+        }
+        #status-indicator.connected {
+            background-color: #2ecc71;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>BrainBit Lite Visualizer</h1>
+    
+    <div class="status">
+        <span id="status-indicator"></span>
+        <span id="status-text">Disconnected</span>
+    </div>
+    
+    <div class="buttons">
+        <button id="btn-zoom-reset">Reset Zoom</button>
+        <button id="btn-pause">Pause</button>
+    </div>
+    
+    <div class="container">
+        <!-- EEG Signal Charts -->
+        <div class="chart-container">
+            <h2>T3 EEG Signal</h2>
+            <canvas id="t3-chart"></canvas>
+            <div class="stats" id="t3-stats"></div>
+        </div>
+        
+        <div class="chart-container">
+            <h2>T4 EEG Signal</h2>
+            <canvas id="t4-chart"></canvas>
+            <div class="stats" id="t4-stats"></div>
+        </div>
+        
+        <div class="chart-container">
+            <h2>O1 EEG Signal</h2>
+            <canvas id="o1-chart"></canvas>
+            <div class="stats" id="o1-stats"></div>
+        </div>
+        
+        <div class="chart-container">
+            <h2>O2 EEG Signal</h2>
+            <canvas id="o2-chart"></canvas>
+            <div class="stats" id="o2-stats"></div>
+        </div>
+        
+        <!-- PSD Charts -->
+        <div class="chart-container">
+            <h2>T3 Power Spectral Density</h2>
+            <canvas id="t3-psd-chart"></canvas>
+        </div>
+        
+        <div class="chart-container">
+            <h2>T4 Power Spectral Density</h2>
+            <canvas id="t4-psd-chart"></canvas>
+        </div>
+        
+        <div class="chart-container">
+            <h2>O1 Power Spectral Density</h2>
+            <canvas id="o1-psd-chart"></canvas>
+        </div>
+        
+        <div class="chart-container">
+            <h2>O2 Power Spectral Density</h2>
+            <canvas id="o2-psd-chart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        const eegCharts = {};
+        const psdCharts = {};
+        let isPaused = false;
+        let lastData = null;
+        let updateInterval;
+        
+        // Format the time axis labels (5 seconds window)
+        const timeLabels = Array.from({length: 1250}, (_, i) => -5 + i * (5 / 1250));
+        
+        // Channel configuration
+        const channels = ['T3', 'T4', 'O1', 'O2'];
+        const colors = {
+            'T3': '#3498db',
+            'T4': '#e74c3c',
+            'O1': '#2ecc71',
+            'O2': '#f39c12'
+        };
+        
+        // Initialize all charts
+        function initCharts() {
+            // Initialize EEG charts
+            channels.forEach(channel => {
+                const ctx = document.getElementById(`${channel.toLowerCase()}-chart`).getContext('2d');
+                eegCharts[channel] = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: timeLabels,
+                        datasets: [{
+                            label: 'Raw',
+                            data: Array(1250).fill(0),
+                            borderColor: `${colors[channel]}33`,
+                            borderWidth: 1,
+                            pointRadius: 0,
+                            fill: false
+                        }, {
+                            label: 'Filtered',
+                            data: Array(1250).fill(0),
+                            borderColor: colors[channel],
+                            borderWidth: 1.5,
+                            pointRadius: 0,
+                            fill: false
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        animation: {
+                            duration: 0
+                        },
+                        scales: {
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: 'Time (s)'
+                                }
+                            },
+                            y: {
+                                title: {
+                                    display: true,
+                                    text: 'Amplitude'
+                                },
+                                min: -120,
+                                max: 120
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            }
+                        }
+                    }
+                });
+                
+                // Initialize PSD charts
+                const psdCtx = document.getElementById(`${channel.toLowerCase()}-psd-chart`).getContext('2d');
+                psdCharts[channel] = new Chart(psdCtx, {
+                    type: 'line',
+                    data: {
+                        labels: Array(100).fill(0).map((_, i) => i),
+                        datasets: [{
+                            label: 'PSD',
+                            data: Array(100).fill(0),
+                            borderColor: colors[channel],
+                            borderWidth: 1.5,
+                            pointRadius: 0,
+                            fill: false
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        animation: {
+                            duration: 0
+                        },
+                        scales: {
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: 'Frequency (Hz)'
+                                },
+                                min: 0,
+                                max: 40
+                            },
+                            y: {
+                                title: {
+                                    display: true,
+                                    text: 'Power'
+                                },
+                                beginAtZero: true
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            }
+                        }
+                    }
+                });
+            });
+        }
+        
+        // Update channel statistics display
+        function updateStats(channel, data) {
+            if (!data) return;
+            
+            const statsDiv = document.getElementById(`${channel.toLowerCase()}-stats`);
+            
+            // Create HTML for power law info
+            let statsHtml = `<div class="stat-box">
+                <strong>1/f Slope:</strong> α = ${data.alpha ? data.alpha.toFixed(2) : 'N/A'}<br>
+                <strong>Dominant:</strong> ${data.dominant || 'N/A'}
+            </div>`;
+            
+            // Create HTML for band powers
+            statsHtml += '<div class="stat-box">';
+            if (data.band_powers) {
+                for (const [band, power] of Object.entries(data.band_powers)) {
+                    if (band === data.dominant) {
+                        statsHtml += `<span class="dominant">${band}: ${power.toFixed(1)}</span><br>`;
+                    } else {
+                        statsHtml += `${band}: ${power.toFixed(1)}<br>`;
+                    }
+                }
+            }
+            statsHtml += '</div>';
+            
+            statsDiv.innerHTML = statsHtml;
+        }
+        
+        // Update the charts with new data
+        function updateCharts(data) {
+            if (!data) return;
+            
+            // Update connection status
+            document.getElementById('status-indicator').className = 'connected';
+            document.getElementById('status-text').textContent = 'Connected';
+            
+            // Update EEG charts
+            channels.forEach(channel => {
+                if (data.eeg && data.eeg[channel]) {
+                    eegCharts[channel].data.datasets[0].data = data.eeg[channel].raw;
+                    eegCharts[channel].data.datasets[1].data = data.eeg[channel].filtered;
+                    eegCharts[channel].update();
+                }
+                
+                if (data.psd && data.psd[channel]) {
+                    psdCharts[channel].data.labels = data.psd[channel].freqs;
+                    psdCharts[channel].data.datasets[0].data = data.psd[channel].powers;
+                    psdCharts[channel].update();
+                }
+                
+                if (data.channel_info && data.channel_info[channel]) {
+                    updateStats(channel, data.channel_info[channel]);
+                }
+            });
+        }
+        
+        // Fetch and update data
+        function fetchData() {
+            if (isPaused) {
+                return;
+            }
+            
+            fetch('brainbit_data.json')
+                .then(response => response.json())
+                .then(data => {
+                    lastData = data;
+                    updateCharts(data);
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    document.getElementById('status-indicator').className = '';
+                    document.getElementById('status-text').textContent = 'Disconnected';
+                });
+        }
+        
+        // Initialize the application
+        function init() {
+            initCharts();
+            
+            // Setup event listeners
+            document.getElementById('btn-zoom-reset').addEventListener('click', () => {
+                channels.forEach(channel => {
+                    eegCharts[channel].options.scales.y.min = -120;
+                    eegCharts[channel].options.scales.y.max = 120;
+                    eegCharts[channel].update();
+                    
+                    psdCharts[channel].options.scales.x.min = 0;
+                    psdCharts[channel].options.scales.x.max = 40;
+                    psdCharts[channel].update();
+                });
+            });
+            
+            document.getElementById('btn-pause').addEventListener('click', () => {
+                isPaused = !isPaused;
+                document.getElementById('btn-pause').textContent = isPaused ? 'Resume' : 'Pause';
+            });
+            
+            // Start fetching data
+            fetchData();
+            updateInterval = setInterval(fetchData, 100);
+        }
+        
+        // Start the application when the page loads
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

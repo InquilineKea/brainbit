@@ -1,0 +1,13 @@
+# CNV Analysis Summary
+Generated: Sun Mar  2 10:06:02 EST 2025
+
+Total entries: 1688
+Reference regions: 994
+Copy number losses: 479
+Copy number gains: 215
+Total CNVs (losses + gains): 694
+
+# CNV Quality Distribution
+High quality CNVs (PASS): 192
+Low quality CNVs (cnvQual): 65
+Size-filtered CNVs (cnvLength): 471

@@ -1,0 +1,2 @@
+# Short Tandem Repeat Details
+# Chromosome | Position | RepeatID | ReferenceUnits | ReferenceLength | RepeatUnit | Genotype | RepeatCopyNumber

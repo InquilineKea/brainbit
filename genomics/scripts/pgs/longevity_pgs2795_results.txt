@@ -1,0 +1,26 @@
+==================================================
+LONGEVITY POLYGENIC SCORE REPORT - PGS002795
+==================================================
+
+PGS MODEL INFORMATION:
+  PGS ID: PGS002795
+  Name: PRS_longetivity
+  Trait: Longevity (>90th survival percentile)
+
+SCORE SUMMARY:
+  Raw PGS Score: 0.000000
+  Found Variants: 0 out of 4
+
+VARIANT DETAILS:
+
+INTERPRETATION:
+  This score represents your genetic predisposition for longevity based on key genetic variants.
+  Higher scores generally indicate a greater genetic predisposition for longevity.
+  The PGS002795 model focuses specifically on variants in the APOE and NECTIN2 genes,
+  which have been strongly associated with longevity in multiple studies.
+  Note that longevity is influenced by many factors beyond genetics, including lifestyle and environment.
+
+DISCLAIMER:
+  This analysis is for research and educational purposes only.
+  It should not be used for medical decisions without consultation with healthcare professionals.
+==================================================

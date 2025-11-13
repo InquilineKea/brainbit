@@ -1,0 +1,35 @@
+==================================================
+LONGEVITY POLYGENIC SCORE REPORT - pgs000906
+==================================================
+
+PGS MODEL INFORMATION:
+  PGS ID: pgs000906
+  Name: PRS-5
+  Trait: Longevity
+  Genome Build: GRCh38
+
+SCORE SUMMARY:
+  Raw PGS Score: -0.095548
+  Matched Variants: 124 out of 330 (37.58%)
+
+TOP CONTRIBUTING VARIANTS:
+  chr1:113630788 A>G [Genotype: 1/1] - Weight: -0.0322, Contribution: -0.0645
+  chr2:35202184 A>T [Genotype: 1/1] - Weight: -0.0317, Contribution: -0.0633
+  chr15:35170019 C>T [Genotype: 0/1] - Weight: 0.0611, Contribution: 0.0611
+  chr12:111535554 A>G [Genotype: 1/1] - Weight: -0.0281, Contribution: -0.0563
+  chr2:26710019 A>G [Genotype: 1/1] - Weight: -0.0258, Contribution: -0.0516
+  chr7:122508944 T>C [Genotype: 1/1] - Weight: 0.0256, Contribution: 0.0512
+  chr7:75532956 A>G [Genotype: 1/1] - Weight: -0.0254, Contribution: -0.0509
+  chr9:22098620 A>G [Genotype: 1/1] - Weight: 0.0254, Contribution: 0.0509
+  chr21:34544067 T>C [Genotype: 1/1] - Weight: -0.0242, Contribution: -0.0483
+  chr9:133266456 T>C [Genotype: 1/1] - Weight: -0.0224, Contribution: -0.0449
+
+INTERPRETATION:
+  This score represents your genetic predisposition for longevity based on common genetic variants.
+  Higher scores generally indicate a greater genetic predisposition for longevity.
+  Note that longevity is influenced by many factors beyond genetics, including lifestyle and environment.
+
+DISCLAIMER:
+  This analysis is for research and educational purposes only.
+  It should not be used for medical decisions without consultation with healthcare professionals.
+==================================================

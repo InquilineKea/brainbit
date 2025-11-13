@@ -1,0 +1,2 @@
+# Inversions
+# Chromosome | Start | End | Length | Quality | Genotype | Filter

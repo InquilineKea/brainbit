@@ -1,0 +1,17 @@
+BrainBit Flex EEG Analysis Summary - O1 Channel
+Recorded on: 2025-04-26 10:56:31
+Device: BrainBit
+Board ID: 7
+Sampling Rate: 250 Hz
+Active Channel: O1
+
+Brain Wave Band Powers:
+  Delta: 816695668.430176 uV² (89.12 dB)
+  Theta: 43559027.587664 uV² (76.39 dB)
+  Alpha: 6915308.753353 uV² (68.40 dB)
+  Beta: 926175.508399 uV² (59.67 dB)
+  Gamma: 138275.322727 uV² (51.41 dB)
+
+Interpretation:
+  Dominant frequency band: Delta
+  Delta waves (0.5-4 Hz) are most prominent during deep sleep. High delta while awake may indicate deep relaxation or possible attention issues.

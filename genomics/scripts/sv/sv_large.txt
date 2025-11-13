@@ -1,0 +1,72 @@
+# Large Structural Variants (>10kb)
+# Type | Chromosome | Start | End | Length | Quality | Genotype | Filter
+DEL	chr1	72300640	0	unknown	999	1/1	PASS
+DEL	chr1	105290200	0	unknown	374	0/1	PASS
+DEL	chr1	122911872	0	unknown	366	1/1	PASS
+DUP	chr1	125026330	0	unknown	550	0/1	PASS
+DEL	chr1	152583066	152615264	unknown	911	0/1	PASS
+DEL	chr2	34470762	34511500	unknown	273	0/1	PASS
+DEL	chr2	40699923	0	unknown	288	0/1	PASS
+DEL	chr2	94520427	0	unknown	806	0/1	PASS
+DEL	chr2	146105051	0	unknown	999	1/1	PASS
+DEL	chr3	162794345	0	unknown	999	1/1	PASS
+DEL	chr3	193157540	0	unknown	999	1/1	PASS
+DEL	chr3	195730377	0	unknown	999	0/1	PASS
+DUP	chr4	160940400	0	unknown	249	0/1	PASS
+DEL	chr5	58027649	0	unknown	546	0/1	PASS
+DEL	chr6	54060005	0	unknown	290	0/1	PASS
+DEL	chr6	58433239	0	unknown	999	0/1	PASS
+DEL	chr6	73882344	0	unknown	505	0/1	PASS
+DEL	chr6	103289589	103315014	unknown	999	1/1	PASS
+DEL	chr7	58189273		unknown	19	0/1	MinQUAL
+DUP	chr7	62909331	0	unknown	207	0/1	NoPairSupport
+DUP	chr7	67324530	0	unknown	703	0/1	NoPairSupport
+DEL	chr7	86602001	0	unknown	465	0/1	PASS
+DUP	chr7	97773327	0	unknown	282	0/1	NoPairSupport
+DEL	chr7	100729949	0	unknown	684	0/1	PASS
+DEL	chr8	8174929	0	unknown	591	0/1	MaxDepth;NoPairSupport
+DEL	chr8	25114917	0	unknown	670	0/1	PASS
+DEL	chr8	32822487	0	unknown	882	1/1	PASS
+DEL	chr8	41299580	47196854	unknown	911	0/1	NoPairSupport
+DEL	chr8	114621672	114633669	unknown	332	0/1	NoPairSupport
+DEL	chr8	143618314	0	unknown	999	1/1	PASS
+DEL	chr9	70701743		unknown	306	0/1	PASS
+DEL	chr9	110262296	110274813	unknown	869	0/1	PASS
+DUP	chr10	38573338	38862190	unknown	156	0/1	NoPairSupport
+DEL	chr10	39257160	39267936	unknown	438	0/1	PASS
+DEL	chr10	39340805	0	unknown	884	0/1	PASS
+DEL	chr10	42206103	0	unknown	256	0/1	PASS
+DEL	chr10	69521247	0	unknown	658	0/1	PASS
+DEL	chr11	7789626	0	unknown	415	0/1	PASS
+DEL	chr11	48726967		unknown	163	0/1	PASS
+DUP	chr11	54369108	0	unknown	337	1/1	PASS
+DUP	chr11	54369451	0	unknown	672	1/1	PASS
+DEL	chr11	54756273	0	unknown	126	0/1	PASS
+DEL	chr11	55667017	0	unknown	712	0/1	NoPairSupport
+DUP	chr11	66945795	0	unknown	435	0/1	NoPairSupport
+DEL	chr12	8405889	0	unknown	999	1/1	PASS
+DEL	chr12	11039845	0	unknown	700	0/1	PASS
+DEL	chr13	17711283		unknown	147	0/1	MaxDepth
+DUP	chr13	17814248	0	unknown	268	0/1	NoPairSupport
+DEL	chr13	111703855		unknown	336	0/1	PASS
+DEL	chr15	76592255	0	unknown	379	0/1	PASS
+DEL	chr17	448289		unknown	104	1/1	PASS
+DEL	chr17	21884523	0	unknown	427	0/1	MaxDepth
+DUP	chr17	36182408	0	unknown	444	0/1	MaxDepth
+DEL	chr17	81742572		unknown	294	1/1	PASS
+DEL	chr19	12053911	0	unknown	181	0/1	PASS
+DUP	chr19	27363659	0	unknown	999	0/1	PASS
+DEL	chr19	27377690	0	unknown	493	0/1	MaxDepth;NoPairSupport
+DEL	chr20	26486451		unknown	56	0/1	MinQUAL
+DEL	chr20	26608316	0	unknown	999	1/1	PASS
+DUP	chr20	28896329		unknown	71	0/1	MinQUAL
+DEL	chr20	29307418		unknown	182	0/1	PASS
+DEL	chr20	29315342	50371265	unknown	999	0/1	NoPairSupport
+DEL	chr20	29983884		unknown	191	0/1	PASS
+DEL	chr22	23931955	0	unknown	999	1/1	PASS
+DUP	chrX	141000595	0	unknown	999	0/1	NoPairSupport
+DEL	chrX	155803598	155984222	unknown	999	0/1	MaxDepth
+DEL	chrY	10632714	10651421	unknown	955	1/1	PASS
+DUP	chrY	10670627		unknown	57	1/1	MaxDepth;MinQUAL
+DUP	chrY	10676567		unknown	210	1/1	PASS
+DEL	chrY	10694224		unknown	468	0/1	MaxDepth

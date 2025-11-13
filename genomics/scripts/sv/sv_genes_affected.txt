@@ -1,0 +1,5 @@
+# Genes Potentially Affected by Structural Variants
+# This is a preliminary analysis and requires further validation
+# Chromosome | Start | End | SV Type | Length | Gene/Region (if known)
+# Note: Gene annotation requires additional reference data
+# Future enhancement: Integrate with gene annotation databases

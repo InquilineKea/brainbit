@@ -1,0 +1,16 @@
+# Structural Variant (SV) Analysis Summary
+Generated: Sun Mar  2 10:47:21 EST 2025
+
+Total structural variants: 12885
+Deletions: 5108
+Insertions: 5347
+Duplications: 54
+Inversions: 0
+Translocations/Breakends: 2376
+Heterozygous SVs: 7018
+Homozygous SVs: 5867
+High-quality SVs (PASS): 12803
+Filtered SVs: 82
+Small SVs (<1kb): 7654
+Medium SVs (1kb-10kb): 674
+Large SVs (>10kb): 70

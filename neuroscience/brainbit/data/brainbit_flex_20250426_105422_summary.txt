@@ -1,0 +1,36 @@
+BrainBit Flex EEG Analysis Summary
+Recorded on: 2025-04-26 10:54:22
+Device: BrainBit
+Board ID: 7
+Sampling Rate: 250 Hz
+EEG Channels: 4
+
+Brain Wave Band Powers (uV²):
+
+Channel: T3
+  Delta: 20401.146502 uV² (43.10 dB)
+  Theta: 1221.004858 uV² (30.87 dB)
+  Alpha: 254.397188 uV² (24.06 dB)
+  Beta: 55.457301 uV² (17.44 dB)
+  Gamma: 91.544025 uV² (19.62 dB)
+
+Channel: T4
+  Delta: 20466.101941 uV² (43.11 dB)
+  Theta: 1167.035793 uV² (30.67 dB)
+  Alpha: 224.560691 uV² (23.51 dB)
+  Beta: 27.399234 uV² (14.38 dB)
+  Gamma: 74.148944 uV² (18.70 dB)
+
+Channel: O1
+  Delta: 35973371.350238 uV² (75.56 dB)
+  Theta: 5732601.193544 uV² (67.58 dB)
+  Alpha: 305203.617364 uV² (54.85 dB)
+  Beta: 10877.846060 uV² (40.37 dB)
+  Gamma: 1992.089964 uV² (32.99 dB)
+
+Channel: O2
+  Delta: 1969776.555604 uV² (62.94 dB)
+  Theta: 375276.390515 uV² (55.74 dB)
+  Alpha: 38430.520109 uV² (45.85 dB)
+  Beta: 9817.098476 uV² (39.92 dB)
+  Gamma: 906.899294 uV² (29.58 dB)

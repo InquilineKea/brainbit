@@ -1,0 +1,3 @@
+# Potentially Significant Repeat Expansions
+# RepeatID | Chromosome | Position | ReferenceUnits | YourCopyNumber | RepeatUnit | Gene/Disease Association
+No known pathogenic repeat expansions detected.

@@ -1,0 +1,7 @@
+# Short Tandem Repeat (STR) Analysis Summary
+Generated: Sun Mar  2 10:11:18 EST 2025
+
+Total repeat loci analyzed: 69
+Reference repeats (no expansion/contraction): 56
+Heterozygous repeat variants: 40
+Homozygous repeat variants: 19

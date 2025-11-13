@@ -1,0 +1,2 @@
+# FOXO3 Variants
+# Chromosome | Position | ID | Reference | Alternate | Quality | Filter | Info | Format | Genotype

@@ -1,0 +1,678 @@
+
+Analyzing: /Users/simfish/Library/Containers/com.fiplab.copyclip2/Data/Library/Application Support/CopyClip/copyclip.sqlite
+
+================================================================================
+COPYCLIP TEXT CONTENT EXTRACTION
+================================================================================
+
+Database: /Users/simfish/Library/Containers/com.fiplab.copyclip2/Data/Library/Application Support/CopyClip/copyclip.sqlite
+Total text entries found: 24
+
+================================================================================
+RECENT CLIPBOARD ENTRIES
+================================================================================
+
+--- Entry #1 ---
+Date: 2022-08-19 23:29:13
+Source: Firefox
+Text: generalized lipodystrophy
+
+--- Entry #2 ---
+Date: 2022-08-19 23:27:37
+Source: Firefox
+Text: metreleptin
+
+--- Entry #3 ---
+Date: 2022-08-19 23:08:07
+Source: Firefox
+Text: https://www.walkinlab.com/products/view/metabolomix-nutritional-test-fmv-urine-genova-test-kit
+
+--- Entry #4 ---
+Date: 2022-08-19 22:42:05
+Source: Firefox
+Text: Do you know any biotechs that are hiring for ops roles? I think Tiffany would be perfect for ops - so much better than the wasteland of med school
+
+
+--- Entry #5 ---
+Date: 2022-08-19 22:30:45
+Source: Firefox
+Text: Rashomon Ridge
+
+--- Entry #6 ---
+Date: 2022-08-19 22:27:20
+Source: Firefox
+Text: Ding et al. 
+
+--- Entry #7 ---
+Date: 2022-08-19 22:15:42
+Source: Firefox
+Text: https://en.wikipedia.org/wiki/Neo-feudalism
+
+--- Entry #8 ---
+Date: 2022-08-19 22:13:17
+Source: Firefox
+Text: 30:3 Δ5,9,23
+
+--- Entry #9 ---
+Date: 2022-08-19 22:03:14
+Source: Firefox
+Text: Δ5,9 FA
+
+--- Entry #10 ---
+Date: 2022-08-19 22:00:14
+Source: Firefox
+Text: Keen Technologies, 
+
+--- Entry #11 ---
+Date: 2022-08-19 21:41:13
+Source: Firefox
+Text: furan fatty acids
+
+--- Entry #12 ---
+Date: 2022-08-19 21:08:21
+Source: Firefox
+Text: http://cyberlipid.gerli.com/description/simple-lipids/fatty-acids/polyenoic-fa/
+
+--- Entry #13 ---
+Date: 2022-08-19 21:08:13
+Source: Firefox
+Text: Some other polyunsaturated fatty acids undergo a migration of one of their double bonds which are not again methylene-interrupted and are known as conjugated fatty acids.
+
+ 
+
+-C-C=C-C=C-C-
+conjugated double bonds
+
+ 
+
+Some unusual fatty acids have not the regular structure with a methylene group betw
+... (truncated)
+
+--- Entry #14 ---
+Date: 2022-08-19 21:03:17
+Source: Firefox
+Text: https://www.lipidmaps.org/resources/lipidweb/lipidweb_html/lipids/fa-eic/fa-conj+/index.htm
+
+--- Entry #15 ---
+Date: 2022-08-19 21:01:53
+Source: Firefox
+Text: Non-methylene-interrupted fatty acids
+
+--- Entry #16 ---
+Date: 2022-08-19 20:58:41
+Source: Firefox
+Text: https://linkinghub.elsevier.com/retrieve/pii/S0300-9084(09)00095-9
+
+--- Entry #17 ---
+Date: 2022-08-19 20:57:47
+Source: Firefox
+Text: non-methylene-interrupted (NMI)-FA
+
+--- Entry #18 ---
+Date: 2022-08-19 20:13:04
+Source: Firefox
+Text: adhiraj@conjecture.dev
+
+--- Entry #19 ---
+Date: 2022-08-19 19:39:55
+Source: Firefox
+Text: https://www.amazon.com/NeuroCalm-Magnesium-Powder-Amy-Myers/dp/B089T9FT45/ref=sr_1_1?crid=32MY9S6H1JGDQ&keywords=neurocalm+powder&qid=1660937988&sprefix=neurocalm+powde%2Caps%2C117&sr=8-1
+
+--- Entry #20 ---
+Date: 2022-08-19 19:30:55
+Source: Firefox
+Text: Nick Sweeting commented on your post.
+Alex K. Chen
+S
+n
+s
+e
+p
+o
+o
+t
+r
+d
+f
+8
+c
+5
+2
+c
+a
+6
+g
+0
+l
+0
+6
+1
+f
+3
+l
+7
+h
+5
+9
+3
+c
+5
+4
+1
+2
+h
+g
+6
+u
+2
+t
+m
+0
+1
+t
+a
+8
+0
+1
+9
+2
+8
+g
+5
+t
+l
+8
+8
+  · Shared with Your friends
+Why do SOME ppl get even closer when reconciling after a massive fight? What determines it?
+11 Comme
+... (truncated)
+
+--- Entry #21 ---
+Date: 2022-08-19 19:30:01
+Source: Firefox
+Text: info@curia.in 
+
+--- Entry #22 ---
+Date: 2022-08-19 18:03:07
+Source: Firefox
+Text: https://www.sens.org/feed/
+
+--- Entry #23 ---
+Date: 2022-08-19 17:54:57
+Source: Firefox
+Text: genesishousehillsborough@gmail.com
+
+--- Entry #24 ---
+Date: 2022-08-19 17:51:19
+Source: Firefox
+Text: Will Jose Luis Ricon live for over 200 years?
+
+================================================================================
+WORD FREQUENCY ANALYSIS
+================================================================================
+
+Total unique words: 327
+Total word occurrences: 580
+
+Top 50 most common words:
+--------------------------------------------------------------------------------
+c                                 16 times
+the                               12 times
+a                                  9 times
+and                                9 times
+to                                 9 times
+of                                 8 times
+it                                 8 times
+are                                7 times
+i                                  7 times
+fatty                              7 times
+acids                              7 times
+https                              6 times
+interrupted                        6 times
+with                               6 times
+8                                  6 times
+reply                              6 times
+com                                5 times
+that                               5 times
+9                                  5 times
+fa                                 5 times
+methylene                          5 times
+1                                  5 times
+can                                5 times
+www                                4 times
+you                                4 times
+some                               4 times
+double                             4 times
+bonds                              4 times
+which                              4 times
+but                                4 times
+in                                 4 times
+t                                  4 times
+5                                  4 times
+2                                  4 times
+0                                  4 times
+14h                                4 times
+for                                3 times
+be                                 3 times
+org                                3 times
+3                                  3 times
+other                              3 times
+not                                3 times
+have                               3 times
+also                               3 times
+non                                3 times
+neurocalm                          3 times
+s                                  3 times
+6                                  3 times
+g                                  3 times
+l                                  3 times
+
+================================================================================
+STATISTICS
+================================================================================
+
+Total clipboard entries: 24
+Total characters: 3,272
+Average entry length: 136.3 characters
+
+Shortest entry: 7 characters
+Longest entry: 1670 characters
+
+================================================================================
+EXTRACTION COMPLETE
+================================================================================
+
+================================================================================
+
+
+Analyzing: /Users/simfish/Library/Containers/com.fiplab.clipboard/Data/Library/Application Support/CopyClip/copyclip.sqlite
+
+================================================================================
+COPYCLIP TEXT CONTENT EXTRACTION
+================================================================================
+
+Database: /Users/simfish/Library/Containers/com.fiplab.clipboard/Data/Library/Application Support/CopyClip/copyclip.sqlite
+Total text entries found: 9999
+
+================================================================================
+RECENT CLIPBOARD ENTRIES
+================================================================================
+
+--- Entry #1 ---
+Date: 2025-11-07 03:26:46
+Source: Google Chrome
+Text: "xoxc-3156691900886-5969424607680-9859766315237-b7238716f370ee7c3a783320ef148201bab95ad40e75d9af3343e92ebfa7227b"
+
+
+--- Entry #2 ---
+Date: 2025-11-07 03:26:33
+Source: Google Chrome
+Text: "xoxc-3156691900886-5969424607680-9859766315237-b7238716f370ee7c3a783320ef148201bab95ad40e75d9af3343e92ebfa7227b"
+
+--- Entry #3 ---
+Date: 2025-11-07 03:26:16
+Source: Windsurf
+Text: JSON.parse(localStorage.getItem('localConfig_v2')).teams
+
+--- Entry #4 ---
+Date: 2025-11-07 03:25:03
+Source: Google Chrome
+Text: xoxd-Jqb3l%2BxrxP9fp%2BwCXmSjmtso9Ot2cusdZ3Ptauzw3zQEIOCjVMHfEybFcgGXASRL9ubkfEYUveiBXRExt3BtY9rMcSaIjypptBxMU4LZI%2BPKov51mQVeZhz00c9e02XrybBxzNSG9Yaqx3Qrx%2Fhemk91bhbrOKNTHbOi8pi%2F1hRpDgxyN2KQ9fZ8QvCv6Jk9j2GX41w%3D
+
+--- Entry #5 ---
+Date: 2025-11-07 03:22:22
+Source: Windsurf
+Text: document.cookie.split(';').find(c => c.trim().startsWith('d=')).split('=')[1]
+
+--- Entry #6 ---
+Date: 2025-11-07 03:19:34
+Source: Comet
+Text: CE9-IEC
+
+
+--- Entry #7 ---
+Date: 2025-11-07 03:19:04
+Source: Comet
+Text: https://app.slack.com/t/psychedelics-world/login/z-app-3156691900886-9876142669457-ffe13e4b9590f5e61596b0521294c581058674e38e32082c0735741173ccd205?s=slack&x=x-p3156691900886-5969424607680-9891544228400
+
+--- Entry #8 ---
+Date: 2025-11-07 03:14:53
+Source: Ghostty
+Text: Last login: Tue Nov  4 10:35:25 on ttys002
+(base) simfish@macbook-pro-76 ~ % cd Downloads/Genome
+(base) simfish@macbook-pro-76 Genome % slackdump
+2025-11-06 19:12:59 INFO  ℹ️ Initialising browser, once the browser appears,
+                      │   login as usual
+
+--- Entry #9 ---
+Date: 2025-11-07 03:14:02
+Source: Comet
+Text: G7N-LC4
+
+
+--- Entry #10 ---
+Date: 2025-11-07 01:57:49
+Source: Comet
+Text: https://www.edgecity.live/blog/introducing-the-long-journey-residents
+
+--- Entry #11 ---
+Date: 2025-11-07 01:57:04
+Source: Comet
+Text: https://www.lesswrong.com/posts/ksw38zuXBAQCWzEqr/neuroai-for-ai-safety-a-differential-path
+
+--- Entry #12 ---
+Date: 2025-11-07 01:56:46
+Source: Comet
+Text: NeuroAI for AI Safety whitepaper led by Patrick Mineault with collaborators Joanne Peng and Niccolo Zanichelli
+
+--- Entry #13 ---
+Date: 2025-11-07 01:46:58
+Source: Comet
+Text: https://www.microstates-conference.com/
+
+--- Entry #14 ---
+Date: 2025-11-07 01:40:44
+Source: Comet
+Text: https://www.corememory.com/p/exclusive-alljoined-bci
+
+--- Entry #15 ---
+Date: 2025-11-07 00:10:50
+Source: Comet
+Text: https://www.youtube.com/watch?v=o6Q0WzWm_XQ
+
+--- Entry #16 ---
+Date: 2025-11-07 00:06:57
+Source: Comet
+Text: Gabriel Peyre
+
+--- Entry #17 ---
+Date: 2025-11-07 00:05:16
+Source: Comet
+Text: MisterYouAreSoDumb
+
+--- Entry #18 ---
+Date: 2025-11-06 23:52:36
+Source: ChatGPT
+Text: Short version: sampling diverse data tends to flatten the loss in the “spiky” directions and spread curvature more evenly. You trade a huge top eigenvalue or two for a broader, healthier spectrum. Like replacing one screaming smoke alarm with several sensible CO₂ sensors.
+
+Here’s the mechanics witho
+... (truncated)
+
+--- Entry #19 ---
+Date: 2025-11-06 23:51:02
+Source: ChatGPT
+Text: Short answer: you mixed two levels. Per-example memorization is sharp and brittle; the aggregate weight directions that store lots of memorized junk are low-curvature.
+
+Here’s the tidy version without hand-waving:
+	•	Per-example view (around a single memorized sample):
+If a model has essentially mem
+... (truncated)
+
+--- Entry #20 ---
+Date: 2025-11-06 23:49:51
+Source: Comet
+Text: https://arxiv.org/abs/2510.24256
+
+--- Entry #21 ---
+Date: 2025-11-06 23:26:31
+Source: ChatGPT
+Text: Short answer: only when the Fokker–Planck ride is over.
+Until then, its densities are generally less (sometimes much less) entropic than the Boltzmann equilibrium they’re inching toward.
+
+⸻
+
+Why Boltzmann owns the entropy crown
+
+For a system with Hamiltonian H(x) in contact with a heat bath at tempe
+... (truncated)
+
+--- Entry #22 ---
+Date: 2025-11-06 23:22:03
+Source: Signal
+Text: Aida Baradari from Augmentation Lab is hosting a 90-minute installation exploring Orwell’s dictum: ‘Who controls the past controls the future; who controls the present controls the past.’ Participants experience three phases — Future, Past, and Present — that blend AI tools, narrative framing, and c
+... (truncated)
+
+--- Entry #23 ---
+Date: 2025-11-06 23:13:26
+Source: ChatGPT
+Text: RELU detroys the dynamical isometry of orthogonal linear networks but the sigmoid does not = does this mean RELU should be used less?
+
+--- Entry #24 ---
+Date: 2025-11-06 23:06:33
+Source: Comet
+Text: https://www.youtube.com/watch?v=zmr0B8D6vwk
+
+--- Entry #25 ---
+Date: 2025-11-06 23:05:13
+Source: Comet
+Text: https://platform.edisonscientific.com/
+
+--- Entry #26 ---
+Date: 2025-11-06 23:03:38
+Source: Signal
+Text: Grok  calls Cathy Tie and Lucy Guo the most controversial thiel fellows lololol
+
+
+--- Entry #27 ---
+Date: 2025-11-06 23:02:25
+Source: Signal
+Text: Grok also calls Cathy Tie and Lucy Guo the most controversial thiel fellows lololol
+
+
+--- Entry #28 ---
+Date: 2025-11-06 23:00:51
+Source: Comet
+Text: 573 4th St, San Francisco, CA 94107
+
+--- Entry #29 ---
+Date: 2025-11-06 22:58:19
+Source: Comet
+Text: Hi!! I'm a huge fan of notion and have started posting all my o3 output onto my notion page! [maybe something interesting will happen out of it - check out alexkchen.com!] do you know if i could tour the notion office sometime over the next 8 days?
+
+--- Entry #30 ---
+Date: 2025-11-06 22:57:06
+Source: Comet
+Text: 573 4th St [NOT AVE} in downtown SF right?
+
+
+--- Entry #31 ---
+Date: 2025-11-06 22:55:54
+Source: ChatGPT
+Text: Short version: not by mere bird-vibes. Kea chaos doesn’t magically summon optimal transport. But if you model their mischief correctly, their behavioral entropy makes the right math to explain the before/after mess an entropy-regularized optimal transport (a Schrödinger bridge on paths, or Sinkhorn 
+... (truncated)
+
+--- Entry #32 ---
+Date: 2025-11-06 22:55:17
+Source: Signal
+Text: https://signal.group/#CjQKICGFkq2uEcPNTocZWwY8qLbQMRR1J9D2eo6pxJIpUyyIEhCs5GsObG5njpN302Vrsm_o
+
+--- Entry #33 ---
+Date: 2025-11-06 22:54:37
+Source: Comet
+Text: Philippe Rigollet
+
+--- Entry #34 ---
+Date: 2025-11-06 22:46:54
+Source: Comet
+Text: https://luma.com/q5n7eww2?tk=SgHmXR
+
+--- Entry #35 ---
+Date: 2025-11-06 22:45:14
+Source: Comet
+Text: How does Jimmy Carter's intense will to live and his 3 2019 falls illustrate the importance of the neuron-muscle junction in aging/longevity
+
+--- Entry #36 ---
+Date: 2025-11-06 22:43:30
+Source: ChatGPT
+Text: DOES THE ENTROPY OF KEA PARROTS INDUCE OPTIMAL TRANSPORT?
+
+--- Entry #37 ---
+Date: 2025-11-06 22:42:01
+Source: ChatGPT
+Text: Are keas maximum-entropy reinforcement learners
+
+--- Entry #38 ---
+Date: 2025-11-06 22:40:24
+Source: Comet
+Text: https://www.youtube.com/watch?v=G8KsRBWb1PE&t=2272s
+
+--- Entry #39 ---
+Date: 2025-11-06 22:11:55
+Source: Comet
+Text: Now the question is, what counts as a “structural alert”?
+
+Nitroaromatic groups – associated with mutagenicity (due to metabolic activation into reactive intermediates).
+Epoxides – reactive three-membered rings that can covalently bind DNA or proteins, leading to genotoxicity.
+Anilines – linked to m
+... (truncated)
+
+--- Entry #40 ---
+Date: 2025-11-06 22:09:15
+Source: Comet
+Text: https://zarazhang.com/about/
+
+--- Entry #41 ---
+Date: 2025-11-06 22:04:00
+Source: Comet
+Text: https://www.litefold.ai/
+
+--- Entry #42 ---
+Date: 2025-11-06 21:54:26
+Source: Claude
+Text: EXCELLENT question! This gets at the **deep mathematical magic** of why entropy specifically works so well. Let me break down why entropy is special:
+
+---
+
+## **The Core Answer: Entropy → Exponential Form → Fast Algorithm**
+
+The choice of entropy regularization is **not arbitrary** - it's the unique
+... (truncated)
+
+--- Entry #43 ---
+Date: 2025-11-06 21:52:44
+Source: Comet
+Text: Which areas of biology/science have lower ROI than drug discovery?
+
+
+--- Entry #44 ---
+Date: 2025-11-06 21:37:47
+Source: Comet
+Text: Which areas of biology/science have lower ROI than drug discovery?
+
+--- Entry #45 ---
+Date: 2025-11-06 21:27:42
+Source: ChatGPT
+Text: Short answer: memorization reduces uncertainty about the memorized examples while often increasing curvature in parameter space along a few brittle directions. That’s not a contradiction. It’s anisotropy.
+
+Here’s the tidy version before your attention wanders:
+
+Two different “uncertainties,” two dif
+... (truncated)
+
+--- Entry #46 ---
+Date: 2025-11-06 21:25:57
+Source: ChatGPT
+Text: Short version: the paper’s “loss curvature” is basically a dressed-up Fisher information story. High curvature directions ≈ high Fisher directions. Those are where memorization lives, so if you squash those directions, you tamp down recitation. Now the slightly less grumpy, fully connected version:
+
+... (truncated)
+
+--- Entry #47 ---
+Date: 2025-11-06 21:15:59
+Source: Comet
+Text: https://www.goodfire.ai/research/phylogeny-manifold
+
+--- Entry #48 ---
+Date: 2025-11-06 21:07:49
+Source: Comet
+Text: https://www.goodfire.ai/research/understanding-memorization-via-loss-curvature
+
+--- Entry #49 ---
+Date: 2025-11-06 21:03:46
+Source: Comet
+Text: https://www.youtube.com/watch?v=inVYA0pQ4Wg&t=1522s
+
+--- Entry #50 ---
+Date: 2025-11-06 21:02:20
+Source: Signal
+Text: asher.soryl@gmail.com
+
+
+
+================================================================================
+WORD FREQUENCY ANALYSIS
+================================================================================
+
+Total unique words: 1563
+Total word occurrences: 4692
+
+Top 50 most common words:
+--------------------------------------------------------------------------------
+the                              195 times
+a                                 73 times
+to                                67 times
+is                                55 times
+entropy                           54 times
+curvature                         52 times
+s                                 50 times
+t                                 46 times
+that                              44 times
+and                               43 times
+of                                42 times
+directions                        41 times
+you                               40 times
+fisher                            40 times
+in                                36 times
+with                              30 times
+it                                28 times
+for                               26 times
+memorization                      24 times
+this                              24 times
+top                               23 times
+k                                 23 times
+information                       22 times
+x                                 20 times
+high                              19 times
+sinkhorn                          19 times
+1                                 18 times
+https                             18 times
+on                                18 times
+or                                18 times
+no                                18 times
+by                                17 times
+v                                 17 times
+f                                 17 times
+not                               17 times
+spectrum                          16 times
+so                                16 times
+are                               16 times
+if                                16 times
+regularization                    16 times
+why                               16 times
+can                               15 times
+memorized                         15 times
+those                             15 times
+com                               14 times
+loss                              14 times
+2                                 14 times
+but                               14 times
+what                              14 times
+structure                         14 times
+
+================================================================================
+STATISTICS
+================================================================================
+
+Total clipboard entries: 9999
+Total characters: 6,869,250
+Average entry length: 687.0 characters
+
+Shortest entry: 1 characters
+Longest entry: 178777 characters
+
+================================================================================
+EXTRACTION COMPLETE
+================================================================================
+
+================================================================================
+

@@ -12,6 +12,8 @@ build/
 venv/
 env/
 ENV/
+.venv/
+claude_env/
 
 # IDE files
 .idea/
@@ -23,11 +25,61 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Data files that might be large
-*.dat
-*.csv
-*.json
-!settings.json
-
 # Logs
 *.log
+logs/
+
+# ===== GENOMIC DATA (SENSITIVE - DO NOT COMMIT) =====
+# VCF files - personal genetic data
+genomics/data/
+*.vcf
+*.vcf.gz
+*.vcf.bgz
+*.vcf.tbi
+*.vcf.gz.tbi
+*.vcf.bgz.tbi
+
+# Large reference databases
+archive/gnomad_data/
+archive/reference_data/
+
+# ===== NEUROSCIENCE DATA =====
+# BrainBit EEG recordings
+neuroscience/brainbit/data/*.fif
+neuroscience/brainbit/data/*.json
+
+# Mendi fNIRS data
+neuroscience/mendi/data/
+
+# ===== ARCHIVE (LARGE FILES) =====
+# Slack dumps
+archive/slackdump/
+
+# Large data archives
+archive/*.sqlite
+archive/*.db
+
+# CopyClip backups (large SQLite files)
+utilities/copyclip/copyclip_backups/*.sqlite
+
+# ===== SENSITIVE FILES =====
+# Private keys and credentials
+*.pem
+*.key
+*.p12
+credentials.*
+secrets.*
+
+# ===== RESULTS & OUTPUT =====
+# Generated reports (keep structure, ignore data)
+genomics/results/**/*.vcf
+genomics/results/**/*.txt
+genomics/results/**/*.csv
+
+# ===== ALLOW EXCEPTIONS =====
+# Allow certain config files
+!settings.json
+!config.json
+
+# Allow documentation CSVs in specific locations
+!genomics/scripts/pgs/*.csv
